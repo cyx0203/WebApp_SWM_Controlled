@@ -1,0 +1,87 @@
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .mixin-basic-block {
+    background-color: #d3fcdb;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px #ffffcd;
+  }
+  
+  .vtm-block {
+    // -webkit-app-region: no-drag;
+    box-shadow: 0px 1px 1px #858585;
+    background-color: orange;
+    width:100%;
+    height:80px;
+    border-radius: 20px;
+    .row1{
+      display: flex;
+    }
+  }
+  .block {
+    // .mixin-basic-block;
+    .vtm-block;
+    .row1;
+  
+  }
+  
+  .block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 100vh;
+    padding:0 10px 10px 10px;
+    background: gray;
+    font-size: 45px;
+  }
+  
+  .block3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding:0 0px 10px 0px;
+    background: #071c4f;
+    height:100vh;
+  }
+  .block3_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding:0 0px 10px 0px;
+    height:100vh;
+    background: url('/src/assets/bg.svg');
+    background-size: cover;
+  }
+  
+  .card{
+    // width: 300px;
+    // height: 200px;
+  }
+  
+  .vd{
+    width: 320px;
+    height: 200px;
+    // width: 300px;
+    // height: 200px;
+    object-fit: fill;
+    position: relative;
+  }
+  
+  body{
+    overflow: hidden;
+    // background-color: yellow;
+  }
+  
+  .main{
+    // -webkit-app-region: drag;
+  }
+  .main2{
+    // -webkit-app-region: no-drag;
+  }
